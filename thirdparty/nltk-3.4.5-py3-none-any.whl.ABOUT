@@ -1,0 +1,23 @@
+about_resource: nltk-3.4.5-py3-none-any.whl
+name: nltk
+version: 3.4.5
+download_url: https://files.pythonhosted.org/packages/f6/1d/d925cfb4f324ede997f6d47bea4d9babba51b49e87a767c170b77005889d/nltk-3.4.5.zip
+description: NLTK is a leading platform for building Python programs to work with human language
+  data. It provides easy-to-use interfaces to over 50 corpora and lexical resources such as
+  WordNet, along with a suite of text processing libraries for classification, tokenization,
+  stemming, tagging, parsing, and semantic reasoning, wrappers for industrial-strength NLP libraries,
+  and an active discussion forum.
+homepage_url: http://www.nltk.org/
+license_expression: apache-2.0
+copyright: Copyright (c) NLTK contributors
+notice_file: nltk-3.4.5-py3-none-any.whl.NOTICE
+notice_url: https://github.com/nltk/nltk/wiki/FAQ
+attribute: yes
+track_changes: yes
+owner: nltk Project
+vcs_repository: https://github.com/nltk/nltk.git
+package_url: pkg:pypi/nltk@3.4.5
+licenses:
+  - key: apache-2.0
+    name: Apache License 2.0
+    file: apache-2.0.LICENSE
