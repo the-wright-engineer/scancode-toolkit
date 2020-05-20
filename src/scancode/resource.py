@@ -1071,7 +1071,7 @@ class Resource(object):
         for s in self.siblings(codebase):
             if not s.path == extract_path:
                 continue
-            return s.path
+            return s
 
     def extracted_from(self, codebase):
         archive_path, _, _ = self.path.rpartition('-extract')
@@ -1079,7 +1079,7 @@ class Resource(object):
             for c in a.children(codebase):
                 if not c.path == archive_path:
                     continue
-                return c.path
+                return c
 
     @classmethod
     def get(cls, codebase, rid):
