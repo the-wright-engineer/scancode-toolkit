@@ -29,7 +29,13 @@ jobs:
                 architecture: '${{ parameters.python_architecture }}'
             displayName: 'Install Python $(python_version)'
 
-          - script: configure --python path
+          - script: python --version
+            displayName: 'Check Python version'
+
+          - script: python -c "import sys;print(sys.executable)"
+            displayName: 'Check Python executable'
+
+          - script: configure.bat --python path
             displayName: 'Run Configure'
 
           - script: $(test_suite)

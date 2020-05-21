@@ -46,3 +46,14 @@ supported_combos = {
 arches = supported_combos[os]
 if arch not in arches:
     unsupported(os + arch)
+
+
+
+
+# display supported packaging tags
+import packaging.tags
+print('================SUPPORTED PACKAGING TAGS=================')
+for tag in packaging.tags.sys_tags():
+    print(tag)
+print('=========================================================')
+
